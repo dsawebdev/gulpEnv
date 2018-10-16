@@ -1,0 +1,36 @@
+{
+  "name": "gulpenv",
+  "version": "1.0.0",
+  "description": "Gulp Enviornment",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsawebdev/gulpEnv.git"
+  },
+  "author": "Devon Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsawebdev/gulpEnv/issues"
+  },
+  "homepage": "https://github.com/dsawebdev/gulpEnv#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "pump": "^3.0.0"
+  }
+}
